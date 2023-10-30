@@ -4,7 +4,7 @@ var ground, invisibleGround, groundImage;
 var cloud, cloudImg;
 
 //acrescente as variaveis obstaculose4, obstacle5, obstacle6;
-var obstaclesGroup, obstacle1, obstacle2, obstacle3, obstacl
+var obstaclesGroup, obstacle1, obstacle2, obstacle3, obstacle4,obstacle5
 
 var score;
 
@@ -92,7 +92,7 @@ function draw() {
 
   //crie obstaculos aleatorios com swith e math
    
-    var rand = math.round(random(1,6));
+    var rand = Math.round(random(1,6));
     switch(rand) {
         case 1: obstacle.addImage(obstacle1);
             break; 
